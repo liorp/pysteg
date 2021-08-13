@@ -1,9 +1,17 @@
 [tool.poetry]
 name = "pysteg"
-version = "0.1.0"
+version = "0.1.1"
 description = "A python library to create encrypted images using steganography."
 authors = ["Lior Pollak <4294489+liorp@users.noreply.github.com>"]
+maintainers = ["Lior Pollak <4294489+liorp@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/liorp/pysteg"
+repository = "https://github.com/liorp/pysteg/"
+keywords = [
+    "Steganography",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
